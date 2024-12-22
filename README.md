@@ -36,7 +36,7 @@
 
 ```json
 {
-  "result": "Выражение, которое ввёл пользователь"
+  "result": "Результат выражения, которое ввёл пользователь"
 }
 ```
 
@@ -121,6 +121,6 @@ curl --location 'localhost:8080/api/v1/calculate' \
 # Запуск проекта
 
 ```
-go run .cmd/
+go run ./cmd/calc_service/...
 
 ```
