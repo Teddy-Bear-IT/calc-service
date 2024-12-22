@@ -5,14 +5,16 @@
 ## Как использовать
 
 1. Склонируйте репозиторий:
-   git clone [https://github.com/Teddy-Bear-IT/calc-service.git](https://github.com/Teddy-Bear-IT/calc-service.git)
-2. Запустите сервис:
+```
+   git clone https://github.com/Teddy-Bear-IT/calc-service.git .
+```
+3. Запустите сервис:
 
    ```go
    go run ./cmd/calc_service/...
    ```
 
-3. Сервис запустился по адресу `http://localhost:8080/`
+4. Сервис запустился по адресу `http://localhost:8080/`
 
 ## API Endpoint
 
